@@ -1,8 +1,8 @@
 Joomla komponenta: Helloworld
 
-LINK: http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Adding_a_menu_type_to_the_site_part
+LINK: http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Adding_a_model_to_the_site_part
 
-V0.0.3
+V0.0.4
 
 1. Kreirani fajlovi
 
@@ -16,6 +16,8 @@ V0.0.3
 		site/views/helloworld/tmpl/index.html
 		site/views/helloworld/tmpl/default.xml
 		site/views/helloworld/tmpl/default.php
+		site/models/index.html
+		site/models/helloworld.php
 		admin/index.html
 		admin/helloworld.php
 		admin/sql/index.html
@@ -24,8 +26,9 @@ V0.0.3
 		admin/sql/updates/mysql/0.0.1.sql
 
 
+
 2. Uvod
-	U ovom dijelu se objasnjava kako povezati menu sa komponentom. To činimo na način da dodajemo *.xml fajl u view folder npr: 
+	U Joomla! framework-u moduli su zaduženi za upravljanje podacima. Prva funkcija koja treba da bude napisana za model je get() funkcija, ona vraća podatke kontroleru. 
 	
 	site/views/helloworld/tmpl/
 	
