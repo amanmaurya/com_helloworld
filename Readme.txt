@@ -1,8 +1,8 @@
 Joomla komponenta: Helloworld
 
-LINK: http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Adding_a_model_to_the_site_part
+LINK: http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Using_the_database
 
-V0.0.4
+V0.0.5
 
 1. Kreirani fajlovi
 
@@ -21,16 +21,17 @@ V0.0.4
 		admin/index.html
 		admin/helloworld.php
 		admin/sql/index.html
+		admin/sql/install.mysql.utf8.sql
+		admin/sql/uninstall.mysql.utf8.sql
 		admin/sql/updates/index.html
 		admin/sql/updates/mysql/index.html
 		admin/sql/updates/mysql/0.0.1.sql
-
-
+		admin/sql/updates/mysql/0.0.6.sql
+		admin/models/index.html
+		admin/models/fields/index.html
+		admin/models/fields/helloworld.php
+		admin/tables/index.html
+		admin/tables/helloworld.php
 
 2. Uvod
-	U Joomla! framework-u moduli su zaduženi za upravljanje podacima. Prva funkcija koja treba da bude napisana za model je get() funkcija, ona vraća podatke kontroleru. 
-	
-	site/views/helloworld/tmpl/
-	
-	Ovo omogućava da joomla prepozna default.php kao menu item
-	
+	Rad sa bazama podataka
